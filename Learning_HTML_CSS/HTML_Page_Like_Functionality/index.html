@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <!--<link href="/normalize.css" rel="stylesheet">-->
+  <title>Learn Webdesign</title>
+  <style>
+    header {
+      text-align: center;
+      background: url('images/back.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    .inlin{
+      display:inline;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/prof.png">
+    <h1>Learn HTML && CSS</h1>
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Learn HTML</a></li>
+      <li><a href="#">Learn CSS</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Hypertext Markup Language (HTML)</h2>
+    <p>Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.[1] Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+    <button class="inlin" onclick="clicked('a')">Like</button><p id ="lk1" class="inlin"></p>
+  </article>
+  <article>
+    <h2>History on development</h2>
+    <p>In 1980, physicist Tim Berners-Lee, a contractor at CERN, proposed and prototyped ENQUIRE, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an Internet-based hypertext system.[3] Berners-Lee specified HTML and wrote the browser and server software in late 1990. That year, Berners-Lee and CERN data systems engineer Robert Cailliau collaborated on a joint request for funding, but the project was not formally adopted by CERN. In his personal notes[4] from 1990 he listed[5] "some of the many areas in which hypertext is used" and put an encyclopedia first.</p>
+    <button class="inlin" onclick="clicked('b')">Like</button><p id ="lk2" class="inlin"></p>
+  </article>
+  <article>
+    <h2>Cascading Style Sheets (CSS)</h2>
+    <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.[1] Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.</p>
+    <button class="inlin" onclick="clicked('c')">Like</button><p id ="lk3" class="inlin"></p>
+  </article>
+<script src="js/javs.js"></script>
+</body>
+</html>
